@@ -121,6 +121,38 @@ let mostAppears = Object.keys(wordCounts).reduce((a, b) => wordCounts[a] > wordC
 // Finding the word with most appearances
 console.log(mostAppears, "has most appearances");
 
+// 31. Using console.log() print out the following statement.
+console.log("The quote 'There is no exercise better for the heart than reaching down and lifting people up.' by John Holmes teaches us to help to one another.");
 
+// 32. Using console.log() print out the following quote by Mother Teresa.
+console.log("Love is not patronizing and charity isn't about pity, it is about love. Charity and love are the same -- with charity you give love, so don't just give money but reach out your hand instead.");
+
+// 33. Check if 'on' is found in both python and jargon
+let python = "python";
+let jargon = "jargon";
+console.log(python.includes("on"), "python");
+console.log(jargon.includes("on"), "jargon");
+
+// 34. I hope this course is not full of jargon. Check if jargon is in the sentence.
+let jargonSentence = "I hope this course is not full of jargon.";
+console.log(jargonSentence.includes("jargon"), "jargonSentence");
+
+// 35. Generate a random number between 0 and 100 inclusive.
+let randNum = Math.floor(Math.random() * 101);
+console.log(randNum, "0 - 100");
+
+// 36. Generate a random number between 50 and 100 inclusive.
+let randNum1 = Math.floor(Math.random() * 51) + 50;
+console.log(randNum1, "0 - 150");
+
+// 37. Generate a random number between 0 and 255 inclusive.
+// first way
+let randNum2 = Math.floor(Math.random() * 251);
+console.log(randNum2, "0 - 250 first way");
+// second way
+function randomIntFromInterval(min, max) { // min and max included
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+console.log(randomIntFromInterval(0, 250), "0 - 250 second way");
 
 
