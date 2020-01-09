@@ -155,4 +155,26 @@ function randomIntFromInterval(min, max) { // min and max included
 }
 console.log(randomIntFromInterval(0, 250), "0 - 250 second way");
 
+// 38. Access the 'JavaScript' string characters using a random number.
+let jsString = "JavaString";
+let randNum3 = Math.floor(Math.random() * 9);
+console.log(randNum3);
+console.log(jsString[randNum3]);
+
+// 39. Use console.log() and escape characters to print the following pattern.
+const matrix = "1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125";
+console.log(matrix);
+
+// 40. Check if typeof '10' is exactly equal to 10. If not make it exactly equal.
+const string10 = "10";
+const num10 = 10;
+console.log(typeof string10 === num10, "checking");
+const num10String = num10.toString();
+console.log(typeof string10 === typeof num10String, "strict equal, identical");
+
+// 41. Check if parseInt('9.8') is equal to 10 if not make it exactly equal with 10.
+console.log(parseInt("9.8"));
+console.log(Math.ceil(Number(parseInt("9.8"))));
+console.log(Math.ceil(Number(parseInt("9.8")) + 1) === 10, "probably not the right solution but whatever.");
+
 
