@@ -138,6 +138,28 @@ console.log(`now (${now}) - `, typeof now);
 // console.log("The area of a triangle is: ", side_a * side_b);
 
 // 4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
-const radius = prompt("Enter radius", "radius");
-console.log(radius**2*3.14, "area");
-console.log(radius*2*3.14, "circumference");
+// const radius = prompt("Enter radius", "radius");
+// console.log(radius**2*3.14, "area");
+// console.log(radius*2*3.14, "circumference");
+
+// 5. Calculate the slope, x-intercept and y-intercept of y = 2x -2
+let x = Math.floor(Math.random() * 11);
+let y = 2*x - 2;
+console.log(`x - ${x}, y - ${y}`);
+
+// 6. Slope is (m = y2-y1/x2-x1). Find the slope between point (2, 2) and point(6,10)
+const x1 = 2;
+const y1 = 2;
+const x2 = 6;
+const y2 = 10;
+const m = y2 - y1 / x2 - x1;
+console.log(m);
+
+// 7. Compare the slope of above two questions.
+
+// 8. Calculate the value of y (w = z^2 + 6x + 9). Try to use different x values and figure out at what z value w is 0.
+let z;
+let w;
+z = -3;
+w = z**2 + 6*z + 9;
+console.log(`w is ${w}`);

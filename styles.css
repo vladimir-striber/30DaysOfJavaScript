@@ -1,0 +1,85 @@
+/*Styles for 30 days of javascript*/
+
+.tata {
+  display: flex;
+
+  flex-direction: column;
+  margin: 100px auto;
+  position: relative;
+  width: 450px;
+}
+
+.usi {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.desno-uvo {
+  width: 200px;
+  height: 200px;
+  border: solid 3px palevioletred;
+  display: block;
+  position: relative;
+  background-color: deeppink;
+  border-radius: 50%;
+}
+
+.levo-uvo {
+  width: 200px;
+  height: 200px;
+  border: solid 3px palevioletred;
+  display: block;
+  position: relative;
+  background-color: deeppink;
+  border-radius: 50%;
+}
+
+.glava {
+  width: 450px;
+  height: 450px;
+  border: solid 3px palevioletred;
+  display: block;
+  background-color: deeppink;
+  border-radius: 50%;
+  position: absolute;
+  top: 161px;
+}
+
+.oci  {
+  width: 180px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+  top: 15%;
+  }
+.oko {
+  width: 45%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+.zenica {
+  width: 65%;
+  height: 45%;
+  position: absolute;
+  bottom: 0;
+  background-color: #000;
+  border-radius: 50%;
+  right: 10px;
+}
+
+.nos {
+  width: 150px;
+  height: 75px;
+  display: block;
+  position: absolute;
+  background-color: black;
+  left: 35%;
+  top: 60%;
+  /*transform: translate(-50%, -50%);*/
+  border-radius: 50%;
+}
