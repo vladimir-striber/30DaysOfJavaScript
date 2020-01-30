@@ -1,3 +1,5 @@
+// import moment from 'moment';
+
 // Day 3 exercise
 
 // ///// 1. Exercises: Data types Part
@@ -163,3 +165,73 @@ let w;
 z = -3;
 w = z**2 + 6*z + 9;
 console.log(`w is ${w}`);
+
+// 9. Writ a script that prompt a user to enters hours and rate per hour. Calculate pay of the person?
+// Enter hours: 40
+// Enter rate per hour: 28
+// Your weekly earning is 1120
+
+// let hours = prompt("Enter hours", "Hours here");
+// let rate = prompt("Enter rate per hour", "Rate here");
+// console.log(`Pay of the persone - `, hours * rate);
+
+// 10. If the length of your name is greater than 7 say, your name is long else say your name is short.
+const myName = "Vladimir";
+if (myName.length > 7) {
+  console.log(`My name is long`);
+} else {
+  console.log(`My name is short`);
+}
+
+// 11. Compare your first name length and your family name length and you should get this output.
+const myFirstName = `Vladimir`;
+const myLastName = `Striber`;
+if (myFirstName.length > myLastName.length) {
+  console.log(`My first name, ${myFirstName}, is longer than my last name, ${myLastName}!`);
+} else {
+  console.log(`My last name, ${myLastName}, is longer than my first name, ${myFirstName}!`);
+}
+
+// 12. Declare two variables myAge and yourAge and assign them initial values and myAge and yourAge.
+let myAge = 250;
+let yourAge = 25;
+let diff = myAge - yourAge;
+console.log(`I am ${diff} years older than you!`);
+
+// 13. Using prompt get the year the user was born and if the user is 18 or above allow the user to drive if not tell the user to wait a certain amount of years.
+// const birthYear = prompt("Enter your birth year", "Year");
+// const today = new Date().getUTCFullYear();
+// const driversAge = today - birthYear;
+// if (driversAge > 18) {
+//   console.log("You are " + driversAge + ". " + "You are old enough to drive.");
+// } else {
+//   console.log(`You are ${driversAge}. You are not old enough to drive!`);
+// }
+
+// 14. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
+// const numOfYears = prompt("Enter number of years", "Number of years");
+// console.log(numOfYears * 31536000);
+
+// 15. Create a human readable time format using the Date time object
+//   i. YYY-MM-DD HH:mm
+//  ii. DD-MM-YYYY HH:mm
+// iii. DD/MM/YYY HH:mm
+
+
+
+// var currentDateTime = new moment();
+//
+// console.log(currentDateTime);
+
+window.onload = function() {
+  // let new_date = new Date();
+  // let display_date = moment(new_date).format("YYY-MM-DD HH:mm");
+  // console.log(display_date);
+  var moment = require('moment');
+// moment().format();
+
+  console.log(moment());
+};
+
+
+
