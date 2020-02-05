@@ -1,4 +1,5 @@
 // import moment from 'moment';
+import require from 'requirejs'
 
 // Day 3 exercise
 
@@ -218,20 +219,22 @@ console.log(`I am ${diff} years older than you!`);
 // iii. DD/MM/YYY HH:mm
 
 
+var moment = require('moment');
+// moment().format();
+
+console.log(moment());
+
 
 // var currentDateTime = new moment();
 //
 // console.log(currentDateTime);
 
-window.onload = function() {
+// window.onload = function() {
   // let new_date = new Date();
   // let display_date = moment(new_date).format("YYY-MM-DD HH:mm");
   // console.log(display_date);
-  var moment = require('moment');
-// moment().format();
 
-  console.log(moment());
-};
+// };
 
 
 

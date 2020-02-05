@@ -1,0 +1,24 @@
+{
+  "name": "30DaysOfJavaScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladimir-striber/30DaysOfJavaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladimir-striber/30DaysOfJavaScript/issues"
+  },
+  "homepage": "https://github.com/vladimir-striber/30DaysOfJavaScript#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "requirejs": "^2.3.6"
+  }
+}
